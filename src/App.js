@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Components/Navbar";
+import Textform from "./Components/Textform"
+import Toast from "./Components/Toast"
+import About from "./Components/About"
 
-function App() {
+
+const App=() =>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Navbar  Navbar = "TextPlay ▶"/>
+    <About/>
+    <Toast/>
+    <div className="container my-3">
+    <Textform heading = "Enter the text below and perform some task🚀 " />
     </div>
-  );
+    </>
+  )
 }
 
 export default App;
