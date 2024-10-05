@@ -1,6 +1,6 @@
 
 😊Welcome to My TextConverter APP😊
-(Made By junaid Khan (+91 9982274550))
+
 # Getting Started with Create React App
 
 
